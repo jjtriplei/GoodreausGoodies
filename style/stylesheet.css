@@ -1,32 +1,22 @@
-.menu {
-	color: #0A7AA3;
-	position: relative;
-	left: 100px;
-	font-size: 20px;
-}	
-
-.about {
-	color: #0A7AA3;
-	position: relative;
-	left: 175px;
-	font-size: 20px;
-}
-
-.Goodies {
-	color: #FFB200;
-	position: relative;
-	left: 300px;
-	font-size: 50px
-}
-.contact {
-	color: #0A7AA3;
-	position: relative;
-	left: 450px;
-	font-size: 20px;
-}
-
 body {
 	background-color: linen;
+}
+
+.navigation ul {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	color: #0A7AA3;
+	font-weight: 100;
+}
+
+.navigation li.logo {
+	color: #FFB200;
+	font-size: 40px;
 }
 
 h1 {
