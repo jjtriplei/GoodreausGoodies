@@ -1,10 +1,10 @@
-@font-face {
-	font-family: "malayalam";
-	src: url('../fonts/malayalam.ttf');
-	  format('truetype');
+@face-font {
+	font-family: malayalam;
+	src: url(/fonts/malayalam.tff)
 }
 
 body {
+	font-family: malayalam;
 	background-color: linen;
 }
 
@@ -27,27 +27,23 @@ body {
 	font-size: 40px;
 }
 
-h1 {
+#company_intro_container {
 	color: #65524C;
-	font-size: 24px;
+	font-size: 15px;
 	position: relative;
 	left: 240px;
 	top: 122px;
 }
 
-p {
-	color: #000000;
-	font-size: 18px;
+#company_intro_container p {
+	font-size: 15px;
 	position: relative;
-	width: 280px;
-	left: 195px;
-	top: 120px;
 }
 
-h2 {
+#ask_me_how_button {	
 	border: 2px solid #F3A704;
 	color: #F3A704;
-	font-size: 12px;
+	font-size: 10px;
 	padding: 15px;
 	width: 9%;
 	top: 120px;
@@ -57,15 +53,32 @@ h2 {
 	text-align: center;
 }
 
-h3 {
+#seasonal_menus-container {
 	background-color: #006F90;
 	box-sizing: content-box;
 	color: #FFFFFF;
-	font-size: 38px;
 	width: 100%;
-	height: 270px;
-	top: 160px;
-	border: 1px solid #006F90;
-	text-align: center;
+	height: 400px;
+	text-align: left;
+	position: relative;
+}
+
+#pink_container {
+	background-color: #ff4d88;
+	box-sizing: content-box;
+	color: #000000;
+	height: 400px;
+	width: 100%;
+	text-align: right;
+	position: relative;
+}
+
+#gold_container {
+	background-color: #e6b800;
+	box-sizing: content-box;
+	color: #1a1aff;
+	height: 600px;
+	width: 100%;
+	text-align: right;
 	position: relative;
 }
