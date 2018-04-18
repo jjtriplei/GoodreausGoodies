@@ -3,27 +3,36 @@ body {
 	background-image: url('../img/Background1.jpg');
 }
 
-.topnav {
-	font-size: 25px;
-	color: #006F90;
-	display: inline;
+.header {
+	
 }
 
-#logo {
+.header a {
+	float: ;
+	color: #006F90;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.header a.logo {
 	color: #F3A704;
 	font-size: 40px;
+	font-weight: bold;
 }
 
 #company_intro_container {
 	color: #65524C;
 	font-size: 15px;
-	left: 240px;
+	left: 260px;
 	top: 122px;
+	position: relative;
 }
 
 #company_intro_container p {
 	font-size: 15px;
-	width: 30%;
+	width: 25%;
+	position: relative;
 }
 
 #ask_me_how_button {	
@@ -36,7 +45,14 @@ body {
 	top: 120px;
 	left: 240px;
 	border-radius: 10px;
+	position: relative;
 	text-align: center;
+}
+
+img {
+	position: relative;
+	left: 700px;
+	bottom: 100px;
 }
 
 #seasonal_menus_container {
@@ -45,7 +61,7 @@ body {
 	color: #FFFFFF;
 	width: 100%;
 	height: 270px;
-	top: 100px;
+	bottom: 50px;
 	position: relative;
 	text-align: center;
 }
