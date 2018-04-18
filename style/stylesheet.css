@@ -1,19 +1,15 @@
-@face-font {
-	font-family: malayalam;
-	src: url(/fonts/malayalam.tff)
-}
-
 body {
-	font-family: malayalam;
-	background-color: linen;
+	font-family: 'Ruda', sans-serif;
+	background-image: url('../img/Background1.jpg');
 }
 
 .topnav {
 	font-size: 25px;
 	color: #006F90;
+	display: inline;
 }
 
-.logo {
+#logo {
 	color: #F3A704;
 	font-size: 40px;
 }
@@ -49,7 +45,7 @@ body {
 	color: #FFFFFF;
 	width: 100%;
 	height: 270px;
-	top: 220px;
+	top: 100px;
 	position: relative;
 	text-align: center;
 }
