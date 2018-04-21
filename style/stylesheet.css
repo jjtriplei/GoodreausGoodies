@@ -4,11 +4,10 @@ body {
 }
 
 .header {
-	
+
 }
 
 .header a {
-	float: ;
 	color: #006F90;
 	text-align: center;
 	text-decoration: none;
@@ -24,7 +23,7 @@ body {
 #company_intro_container {
 	color: #65524C;
 	font-size: 15px;
-	left: 260px;
+	left: 190px;
 	top: 122px;
 	position: relative;
 }
@@ -45,14 +44,21 @@ body {
 	top: 120px;
 	left: 240px;
 	border-radius: 10px;
-	position: relative;
 	text-align: center;
+	position: relative;
+}
+
+.inner-image {
+	position: relative;
+	left: 635px;
+	bottom: 210px;
 }
 
 img {
 	position: relative;
-	left: 700px;
-	bottom: 100px;
+	left: 252px;
+	bottom: 193px;
+
 }
 
 #seasonal_menus_container {
@@ -61,7 +67,7 @@ img {
 	color: #FFFFFF;
 	width: 100%;
 	height: 270px;
-	bottom: 50px;
+	bottom: 150px;
 	position: relative;
 	text-align: center;
 }
